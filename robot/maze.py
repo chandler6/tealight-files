@@ -6,7 +6,7 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-left_side()wall
+if left_side()wall:
 
 distance=(7)
 for n in range (0, distance):
