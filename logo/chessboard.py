@@ -7,4 +7,4 @@ def square(side):
     move (side)
     turn(90)
     
-    square (decoration)
+square (5)
