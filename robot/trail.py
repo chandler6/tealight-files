@@ -13,3 +13,7 @@ turn(1)
 distance=11
 for n in range(0,distance):
   move(11)
+turn(1)
+distance(12)
+for n in range (0,distance):
+  move(4)
