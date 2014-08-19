@@ -26,3 +26,4 @@ while left_side()=='wall':
   move()
   if touch() =='wall':
     turn(-1)
+look()=='wall'
