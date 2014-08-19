@@ -1,3 +1,3 @@
 print "A new file!"
 
-for (i) in range (10, 100)
+print (i) in range (10, 100)
