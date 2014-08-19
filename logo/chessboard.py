@@ -1,3 +1,3 @@
 print "A new file!"
 
-def square 
+def square (edges. sides) :
