@@ -6,4 +6,4 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-move(1)# Add your code here
+move(infinity)# Add your code here
