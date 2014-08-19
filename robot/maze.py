@@ -6,4 +6,4 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-if (possible) move(1)# Add your code here
+if touch (wall) turn # Add your code here
