@@ -6,7 +6,3 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-turn (1)
-move (1)
-turn(1)
-move(1)# Add your code here
