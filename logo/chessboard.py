@@ -1,3 +1,3 @@
 print "A new file!"
 
-print (i) in range (10, 100)
+def in range of (10, 100)
