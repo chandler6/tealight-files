@@ -6,4 +6,4 @@ def polygon(edges, size):
     move(size)
     turn(angle)
     
-polygon(96,10)
+polygon(192,5)
