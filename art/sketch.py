@@ -31,7 +31,7 @@ def handle_mousedown(x,y):
 def handle_mousedown(x,y):
   global lastx, lasty
   
-    if button == "right":
+if button == "right":
     line(lastx, lasty, x, y)
     lastx = x
     lasty = y 
