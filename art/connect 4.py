@@ -5,4 +5,4 @@ color("red")
 spot(300,200,50)
 
 color("white")
-spot(250,150,40)
+spot(300,200,40)
