@@ -35,7 +35,7 @@ def handle_frame():
   
   color("red")
   
-  spot(x,y,8)
+  image(x,y,food/Orange.png)
   vx = vx + ax
   vy = vy + ay
   
@@ -44,6 +44,6 @@ def handle_frame():
   
   color("black")
   
-  spot(x,y,8)
+  image(x,y,food/Orange.png)
   
   
