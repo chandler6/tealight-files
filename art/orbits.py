@@ -1,4 +1,4 @@
-from tealight.art import (color, line, spot, circle, box, image, text, background)
+from tealight.art import (animals/Lion.png, color, line, spot, circle, box, image, text, background)
 
 x = 600
 y = 400
@@ -35,7 +35,7 @@ def handle_frame():
   
   color("red")
   
-  spot(x,y,8)
+  animals/Lion.png(x,y,8)
   vx = vx + ax
   vy = vy + ay
   
@@ -44,6 +44,6 @@ def handle_frame():
   
   color("black")
   
-  spot(x,y,16)
+  animals/Lion.png(x,y,16)
   
   
