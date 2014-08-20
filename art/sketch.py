@@ -25,6 +25,12 @@ color("red")
 def handle_mousedown(x,y):
   global lastx, lasty
   
+  lastx = x
+  lasty = y
+
+def handle_mousedown(x,y):
+  global lastx, lasty
+  
   if button == "right":
     line(lastx, lasty, x, y)
     lastx = x
