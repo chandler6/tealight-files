@@ -6,3 +6,6 @@ spot(300,200,50)
 
 color("white")
 spot(300,200,45)
+
+color("red")
+spot(300,200,40)
