@@ -1,5 +1,5 @@
 print "A new file!"
-from tealight.art import (spot)
+from tealight.art import (spot, red)
 
-def color("red")
+color("red")
 spot(300,200,25)
