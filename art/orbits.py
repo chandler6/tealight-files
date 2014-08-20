@@ -35,7 +35,7 @@ def handle_frame():
   
   color("red")
   
-  animals/Lion.png(x,y,8)
+  spot(x,y,8)
   vx = vx + ax
   vy = vy + ay
   
@@ -44,6 +44,6 @@ def handle_frame():
   
   color("black")
   
-  animals/Lion.png(x,y,16)
+  spot(x,y,16)
   
   
