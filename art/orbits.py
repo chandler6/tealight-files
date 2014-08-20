@@ -1,4 +1,4 @@
-from tealight.art import (animals/Lion.png, color, line, spot, circle, box, image, text, background)
+from tealight.art import (color, line, spot, circle, box, image, text, background)
 
 x = 600
 y = 400
