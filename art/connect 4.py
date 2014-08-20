@@ -4,5 +4,5 @@ from tealight.art import (spot, color)
 color("red")
 spot(300,200,50)
 
-color"white"
+color("white")
 spot(250,150,40)
