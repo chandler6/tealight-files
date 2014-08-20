@@ -1,5 +1,5 @@
 print "A new file!"
-import ("spot")
+from tealight.art import ("spot")
 
 
 spot(300,200,25)
