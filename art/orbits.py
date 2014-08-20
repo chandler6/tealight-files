@@ -44,6 +44,6 @@ def handle_frame():
   
   color("black")
   
-  spot(x,y,16)
+  animals/Lion.png(x,y,16)
   
   
