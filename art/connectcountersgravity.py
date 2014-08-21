@@ -27,11 +27,11 @@ def handle_keydown(key):
     ay = power
 
 #def handle_keyup(key):
-  global ax, ay
+  #global ax, ay
 
-  if key == "left" or key == "right":
+  #if key == "left" or key == "right":
     ax = 0
-  elif key == "up" or key == "down":
+  #elif key == "up" or key == "down":
     ay = 0
     
 def handle_frame():
