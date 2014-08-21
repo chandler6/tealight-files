@@ -18,6 +18,7 @@ def handle_mousedown(x,y,button):
   if button == "left" and turn == 1:
     color("red")
     y = y + vy
+    vy = vy + ay +0.12
     spot(x,y,50)
     turn = 2
   elif button == "right"and turn == 2:
