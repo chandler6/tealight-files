@@ -49,7 +49,7 @@ def handle_frame():
   
   x = x + vx
   y = y + vy
-  if y >= 800:
+   if y >= 800:
     vy=-1*abs(0.4*vy)
     if y>805:
       y=805
