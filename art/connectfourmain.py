@@ -33,6 +33,16 @@ def handle_mousedown(x,y,button):
     turn = 1
     
 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
 color("blue")
 box(20,80,850,840)
 
