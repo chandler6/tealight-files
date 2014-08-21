@@ -36,10 +36,11 @@ def handle_keyup(key):
     
 def handle_frame():
   global x,y,vx,vy,ax,ay
-  box(0,0,screen_width,screen_height)
   color("white")
-  spot(x, y, 20)
+  box(0,0,screen_width,screen_height)
   color("black")
+  spot(x, y, 20)
+  
   
   vx = (vx+ax)*0.97
   vy = vy + ay +0.12
