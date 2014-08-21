@@ -39,7 +39,7 @@ def handle_frame():
   
   color("white")
   
-  spot(x,y,8)
+  spot(x,y,20)
   
   vx = (vx+ax)*0.97
   vy = vy + ay +0.12
@@ -55,7 +55,7 @@ def handle_frame():
   
   color("blue")
   
-  spot(x,y,8)
+  spot(x,y,20)
 
 
 background("paper.jpg")
