@@ -61,4 +61,4 @@ def handle_frame():
 background("paper.jpg")
 
 line(0,813,screen_width, 813)
-spot (x,y,50)
+
