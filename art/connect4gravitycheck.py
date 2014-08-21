@@ -8,7 +8,8 @@ vy = 0
 ax = 0
 ay = 0
 
-
+def handle_mousedown(x,y,button):
+  if button == "left":
 def handle_frame():
   global x,y,vx,vy,ax,ay
   
