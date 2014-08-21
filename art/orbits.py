@@ -4,8 +4,8 @@ x = 600
 y = 400
 vx = 0
 vy = 0
-ax = 1
-ay = 0
+ax = 0
+ay = 0.25
 
 power = 2
 
