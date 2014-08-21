@@ -1,3 +1,8 @@
+from tealight.art import (color, line, spot, circle, box, image, text, background)
+from tealight.art import (screen_width, screen_height)
+
+
+
 def handle_frame():
   global x,y,vx,vy,ax,ay
   
