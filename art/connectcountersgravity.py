@@ -40,7 +40,7 @@ def handle_frame():
   color("white")
   
   spot(x,y,8)
-  image(x,y,"food/Orange.png")
+  
   vx = (vx+ax)*0.97
   vy = vy + ay +0.12
   if vy > 10:
