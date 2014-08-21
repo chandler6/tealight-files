@@ -53,7 +53,5 @@ def handle_frame():
   spot(x,y,8)
 
 
-background("paper.jpg")
-
 line(0,813,screen_width, 813)
 image(x,y,"food/Orange.png")
