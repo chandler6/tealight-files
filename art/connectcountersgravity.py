@@ -54,7 +54,7 @@ def handle_frame():
   
   color("blue")
   
-  spot(x,y,20)
+  
 
 
 background("paper.jpg")
