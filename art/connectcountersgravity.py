@@ -13,18 +13,18 @@ power = 0.3
 
 line
 
-#def handle_keydown(key):
-  #global ax, ay
+def handle_keydown(key):
+  global ax, ay
   
 
-  #if key == "left":
-   # ax = -power
-  #elif key == "right":
-   # ax = power
-  #elif key == "up":
-   # ay = -power
-  #elif key == "down":
-   # ay = power
+  if key == "left":
+    ax = -power
+  elif key == "right":
+    ax = power
+  elif key == "up":
+    ay = -power
+  elif key == "down":
+    ay = power
 
 def handle_keyup(key):
   global ax, ay
