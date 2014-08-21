@@ -22,7 +22,7 @@ turn = 1
 
 last_n = 0
 for n in range(0,8):
-  if n = 0: 
+  if n == 0: 
 
 
 
