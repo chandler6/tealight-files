@@ -19,7 +19,7 @@ def handle_mousedown(x,y,button):
 
   if button == "left":
     ax = -power
-  elif key == "right":
+  elif button == "right":
     ax = power
   elif key == "up":
     ay = -power
