@@ -8,7 +8,7 @@ def handle_mousedown(x,y,button):
   elif button == "right":
     color("yellow")
     spot(x,y,50)
-
+    round(50)
 
 
 
