@@ -15,8 +15,8 @@ def handle_mousedown(x,y,button):
 color("blue")
 box(20,80,850,840)
 
-x = 0
-y = 150
+x = 20
+y =80
 
 width = 20
 height = 8
