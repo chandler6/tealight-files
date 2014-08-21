@@ -36,7 +36,7 @@ def handle_keyup(key):
     
 def handle_frame():
   global x,y,vx,vy,ax,ay
-  
+  background("paper.jpg")
   spot(x, y, 20)
   
   
