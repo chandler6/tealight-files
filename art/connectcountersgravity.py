@@ -17,13 +17,13 @@ line
   #global ax, ay
   
 
-  if key == "left":
+  #if key == "left":
     ax = -power
-  elif key == "right":
+  #elif key == "right":
     ax = power
-  elif key == "up":
+  #elif key == "up":
     ay = -power
-  elif key == "down":
+  #elif key == "down":
     ay = power
 
 def handle_keyup(key):
