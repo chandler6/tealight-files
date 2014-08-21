@@ -9,7 +9,7 @@ ax = 0
 ay = 0
 
 
-def handle_frame():
+def handle_mousedown(x,y,left):
   global x,y,vx,vy,ax,ay
   
   color("white")
