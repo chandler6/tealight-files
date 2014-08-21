@@ -27,9 +27,7 @@ def handle_mousedown(x,y,button):
      if y>805:
       y=805
   
-  color("blue")
-  
-  spot(x,y,8)
+ 
 
   
   
