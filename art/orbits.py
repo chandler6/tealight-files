@@ -4,7 +4,7 @@ x = 600
 y = 400
 vx = 0
 vy = 0
-ax = 0
+ax = 5
 ay = 0
 
 power = 2
