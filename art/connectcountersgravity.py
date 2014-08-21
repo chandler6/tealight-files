@@ -37,6 +37,7 @@ def handle_keyup(key):
 def handle_frame():
   global x,y,vx,vy,ax,ay
   box(0,0,screen_width,screen_height)
+  color("white")
   spot(x, y, 20)
   
   
