@@ -25,9 +25,5 @@ def handle_mousedown(x,y,button):
      vy=-1*abs(0.4*vy)
    if y>805:
      y=805
-  
- 
 
-  
-  
-    
+vx = 10
