@@ -3,7 +3,7 @@ from tealight.art import (screen_width, screen_height)
 
 x = 600
 y = 400
-vx = 5
+
 vy = 0
 ax = 0
 ay = 0
