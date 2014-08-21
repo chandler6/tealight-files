@@ -31,3 +31,17 @@ def handle_frame():
   color("blue")
   
   spot(x,y,8)
+
+  
+  def handle_mousedown(x,y,button):
+  global turn
+  if button == "left" and turn == 1:
+    color("red")
+    spot(x,y,50)
+    
+    turn = 2
+  elif button == "right"and turn == 2:
+    color("yellow")
+    spot(x,y,50)
+    turn = 1
+    
