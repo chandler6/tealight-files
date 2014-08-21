@@ -14,7 +14,7 @@ def handle_mousedown(x,y,button):
    color("white")
   
    spot(x,y,8)
- 
+   x = 
    vx = (vx+ax)*0.97
    vy = vy + ay +0.12
    if vy > 10:
