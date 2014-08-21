@@ -2,12 +2,15 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 
 def handle_mousedown(x,y,button):
-  if button == "left":
+  global turn
+  if button == "left" and turn == 1
     color("red")
     spot(x,y,50)
-  elif button == "right":
+    turn = 2
+  elif button == "right"and turn == 2
     color("yellow")
     spot(x,y,50)
+    turn = 1
     
 
 
