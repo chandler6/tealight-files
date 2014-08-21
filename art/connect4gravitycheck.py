@@ -18,7 +18,7 @@ def handle_mousedown(x,y,button):
 vx = (vx+ax)*0.97
 vy = vy + ay +0.12
 if vy > 10:
-vy =10
+ vy =10
   x = x + vx
 y = y + vy
 if y >= 800:
