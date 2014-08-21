@@ -10,7 +10,7 @@ ay = 0
 
 def handle_mousedown(x,y,button):
   if button == "left":
-   def handle_frame():
+   
    color("white")
   
    spot(x,y,8)
