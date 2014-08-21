@@ -13,11 +13,11 @@ power = 0.3
 
 line
 
-def handle_keydown(key):
+def handle_mousedown(x,y,button):
   global ax, ay
   
 
-  if key == "left":
+  if button == "left":
     ax = -power
   elif key == "right":
     ax = power
