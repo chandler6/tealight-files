@@ -52,7 +52,7 @@ def handle_frame():
     if y>805:
       y=805
   
-  color("blue")
+  
   
   
 
