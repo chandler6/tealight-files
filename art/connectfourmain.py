@@ -20,6 +20,12 @@ boardArray =[[0,0,0,0,0,0,0,0],
 
 turn = 1
 
+for n in range(0,8)
+ print n,boardArray[n]
+
+
+
+
 def handle_mousedown(x,y,button):
   global turn
   if button == "left" and turn == 1:
