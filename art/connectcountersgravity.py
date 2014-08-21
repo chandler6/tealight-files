@@ -37,7 +37,7 @@ def handle_keyup(key):
 def handle_frame():
   global x,y,vx,vy,ax,ay
   
-  
+  spot(x, y, 20)
   
   
   vx = (vx+ax)*0.97
