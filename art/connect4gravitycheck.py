@@ -15,8 +15,8 @@ def handle_mousedown(x,y,button):
   
    spot(x,y,8)
    x = 10 
-   vx = (vx+ax)*0.97
-   vy = vy + ay +0.12
+vx = (vx+ax)*0.97
+vy = vy + ay +0.12
    if vy > 10:
     vy =10
   
