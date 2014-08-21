@@ -1,4 +1,16 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
+
+#1The board
+
+boardArray =[[0,0,0,0,0,0,0,0],
+             [0,1,0,0,0,0,0,1],
+             [0,0,1,0,0,0,1,0],
+             [0,0,0,1,0,1,0,0],
+             [0,0,0,0,1,2,2,2],
+             [0,0,0,1,0,0,0,0],
+             [0,0,1,0,0,0,0,0],
+             [0,0,0,0,0,0,0,0]]
+
 turn = 1
 
 def handle_mousedown(x,y,button):
