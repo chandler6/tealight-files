@@ -35,7 +35,7 @@ def handle_frame():
   
   color("red")
   
-  spot (x,y,100)
+  spot (x,y,50)
   vx = vx + ax
   vy = vy + ay
   
@@ -44,5 +44,5 @@ def handle_frame():
   
   color("black")
   
-  spot (x,y,100)
+  spot (x,y,50)
   
