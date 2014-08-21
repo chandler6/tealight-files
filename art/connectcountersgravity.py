@@ -1,3 +1,6 @@
+from tealight.art import (color, line, spot, circle, box, image, text, background)
+from tealight.art import (screen_width, screen_height)
+
 x = 600
 y = 400
 vx = 0
@@ -7,6 +10,8 @@ ay = 0
 # parity = ((abs(vx + ax))/(vx + ax))
 
 power = 0.3
+
+line
 
 def handle_keydown(key):
   global ax, ay
@@ -52,6 +57,8 @@ def handle_frame():
   
   spot(x,y,8)
 
+
+background("paper.jpg")
 
 line(0,813,screen_width, 813)
 image(x,y,"food/Orange.png")
