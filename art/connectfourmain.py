@@ -22,9 +22,22 @@ turn = 1
 
 def handle_mousedown(x,y,button):
   global turn
+  global x,y,vx,vy,ax,ay
   if button == "left" and turn == 1:
     color("red")
     spot(x,y,50)
+    vx = (vx+ax)*0.97
+  vy = vy + ay +0.12
+  if vy > 10:
+    vy =10
+  
+  x = x + vx
+  y = y + vy
+  if y >= 800:
+    vy=-1*abs(0.4*vy)
+    if y>805:
+      y=805
+    
     turn = 2
   elif button == "right"and turn == 2:
     color("yellow")
