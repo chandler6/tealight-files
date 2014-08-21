@@ -26,7 +26,7 @@ def handle_keydown(key):
   elif key == "down":
     ay = power
 
-def handle_keyup(key):
+#def handle_keyup(key):
   global ax, ay
 
   if key == "left" or key == "right":
