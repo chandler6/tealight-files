@@ -21,7 +21,7 @@ boardArray =[[1,0,0,0,0,0,0,0],
 turn = 1
 
 for n in range(0,8):
- print n,boardArray[n]
+ print n,boardArray[n][0]
 
 
 
