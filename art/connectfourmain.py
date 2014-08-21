@@ -19,7 +19,7 @@ boardArray =[[0,0,0,0,0,0,0,0],
              [0,0,0,0,0,0,0,0]]
 
 turn = 1
-
+global x,y,vx,vy,ax,ay
 def handle_mousedown(x,y,button):
   global turn
   global x,y,vx,vy,ax,ay
