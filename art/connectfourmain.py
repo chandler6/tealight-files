@@ -22,10 +22,7 @@ turn = 1
 
 last_n = 0
 for n in range(0,8):
- print n,boardArray[n][0]
-  if n = 0:
-    all handle_mousedown
-
+  if n = 0: 
 
 
 
