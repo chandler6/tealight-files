@@ -1,4 +1,4 @@
-import ("color", "spot")
+
 
 def handle_mousedown(x,y,button):
   if button == "left":
