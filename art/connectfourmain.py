@@ -23,7 +23,9 @@ turn = 1
 last_n = 0
 for n in range(0,8):
   if n == 0: 
-    def handle_mousedown(x,y,button):
+    
+
+def handle_mousedown(x,y,button):
   global turn
   if button == "left" and turn == 1:
     color("red")
