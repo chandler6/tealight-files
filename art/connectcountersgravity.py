@@ -39,7 +39,7 @@ def handle_frame():
   box(0,0,screen_width,screen_height)
   color("white")
   spot(x, y, 20)
-  
+  color("black")
   
   vx = (vx+ax)*0.97
   vy = vy + ay +0.12
