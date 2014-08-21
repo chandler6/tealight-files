@@ -18,7 +18,7 @@ line
   
 
   #if key == "left":
-    ax = -power
+    #ax = -power
   #elif key == "right":
     ax = power
   #elif key == "up":
