@@ -27,4 +27,4 @@ for i in range(0,8):
       color("white")
       spot(x + i * 80, y + j * 80, 35)
     else:
-      spot(x + i * 80, y + j * 80, 35
+      spot(x + i * 80, y + j * 80, 35)
