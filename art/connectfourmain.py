@@ -31,9 +31,6 @@ def handle_mousedown(x,y,button):
     
     
     
-
-
-      
 def draw():
   color("blue")
   box(offset_x,offset_y,cell_size * cells_x,cell_size * cells_y)
@@ -51,6 +48,6 @@ def draw():
       elif boardArray[j][i] == 2:
         color("yellow")
       
-      spot(offset_x + i * cell_size, offset_y + j * cell_size, cell_size *0.4)
+      spot(offset_x + i * cell_size + cell_size/2, offset_y + j * cell_size + cell_size/2, cell_size *0.4)
 
 draw()
