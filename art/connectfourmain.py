@@ -19,7 +19,7 @@ def handle_mousedown(x,y,button):
   
   if 0 <= col < 8:
     
-    boardArray[0][col] = turn
+    boardArray[0][col] = turn+1
     turn = (turn + 1) % 2
     
     draw()
