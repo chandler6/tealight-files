@@ -27,24 +27,24 @@ def handle_mousedown(x,y,button):
 
 
       
-    
-color("blue")
-box(20,80,850,840)
-
-x = 95
-y =150
-
-width = 20
-height = 8
-
-for i in range(0,8):
-  for j in range(0,8):
-
-    if boardArray [j][i] == 0:
-      color("white")
-    elif boardArray[j][i] == 1:
-      color("red")
-    elif boardArray[j][i] == 2:
-      color("yellow")
-    
-    spot(x + i * 100, y + j * 100, 40)
+def draw():
+  color("blue")
+  box(20,80,850,840)
+  
+  x = 95
+  y =150
+  
+  width = 20
+  height = 8
+  
+  for i in range(0,8):
+    for j in range(0,8):
+  
+      if boardArray [j][i] == 0:
+        color("white")
+      elif boardArray[j][i] == 1:
+        color("red")
+      elif boardArray[j][i] == 2:
+        color("yellow")
+      
+      spot(x + i * 100, y + j * 100, 40)
