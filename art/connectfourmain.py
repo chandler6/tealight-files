@@ -48,3 +48,5 @@ def draw():
         color("yellow")
       
       spot(x + i * 100, y + j * 100, 40)
+
+draw()
