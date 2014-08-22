@@ -7,9 +7,9 @@ turn = 1
 cell_size = 100
 
 cells_x = 8
-cells_y = 8
+cells_y = 10
 
-offset_x = 200
+offset_x = 20
 offset_y = 80
 
 def handle_mousedown(x,y,button):
