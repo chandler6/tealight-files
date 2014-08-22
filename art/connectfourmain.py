@@ -7,7 +7,7 @@ turn = 1
 cell_size = 100
 
 cells_x = 8
-cells_y = 10
+cells_y = 8
 
 offset_x = 20
 offset_y = 80
