@@ -38,9 +38,6 @@ def draw():
   color("blue")
   box(offset_x,offset_y,cell_size * cells_x,cell_size * cells_y)
   
-  x = 95
-  y =150
-  
   width = 20
   height = 8
   
@@ -54,6 +51,6 @@ def draw():
       elif boardArray[j][i] == 2:
         color("yellow")
       
-      spot(x + i * 100, y + j * 100, 40)
+      spot(offset_x + i * 100, offset_y + j * 100, 40)
 
 draw()
