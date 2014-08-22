@@ -1,3 +1,7 @@
+#mauriceyap,chandler6,v3506,chloea
+#Maurice Yap, Chandler Goddard, Sohraab Sayed, Chloe Ayoub
+
+
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
 from github.mauriceyap.art.maths_mechanism import *
