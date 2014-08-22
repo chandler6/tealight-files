@@ -1,12 +1,6 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
 from github.mauriceyap.art.maths_mechanism import *
-x = 600
-y = 400
-vx = 0
-vy = 0
-ax = 0
-ay = 0
 
 print boardArray
 
@@ -14,18 +8,22 @@ turn = 1
 
 def handle_mousedown(x,y,button):
   global turn
-  if button == "left" and turn == 1:
-    color("red")
-    spot(x,y,40)
-    
-    turn = 2
-  elif button == "right"and turn == 2:
-    color("yellow")
-    spot(x,y,40)
-    turn = 1
-    
-    
+  
+  
+  
   draw()
+  
+  #if button == "left" and turn == 1:
+  #  color("red")
+  #  spot(x,y,40)
+  #  
+  #  turn = 2
+  #elif button == "right"and turn == 2:
+  #  color("yellow")
+  #  spot(x,y,40)
+  #  turn = 1
+    
+    
     
 
 
