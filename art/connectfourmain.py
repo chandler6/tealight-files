@@ -4,7 +4,7 @@ from github.mauriceyap.art.maths_mechanism import *
 
 
 turn = 1
-cell_size = 100
+cell_size = 40
 
 cells_x = 8
 cells_y = 8
