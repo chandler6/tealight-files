@@ -26,14 +26,7 @@ def handle_mousedown(x,y,button):
     
 
 
-    
-    
-    
-boardArray[1][2] = 2
-    
-    
-    
-    
+      
     
 color("blue")
 box(20,80,850,840)
