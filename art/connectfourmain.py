@@ -51,6 +51,6 @@ def draw():
       elif boardArray[j][i] == 2:
         color("yellow")
       
-      spot(offset_x + i * 100, offset_y + j * 100, 40)
+      spot(offset_x + i * cell_size, offset_y + j * cell_size, cell_size *0.4)
 
 draw()
