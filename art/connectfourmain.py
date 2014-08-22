@@ -29,7 +29,7 @@ def handle_mousedown(x,y,button):
     
     
     
-    
+boardArray[1][2] = 2
     
     
     
