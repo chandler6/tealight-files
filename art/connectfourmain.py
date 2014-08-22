@@ -38,8 +38,8 @@ def draw():
   width = 20
   height = 8
   
-  for i in range(0,8):
-    for j in range(0,8):
+  for i in range(0,cells_x):
+    for j in range(0,cells_y):
   
       if boardArray [j][i] == 0:
         color("white")
