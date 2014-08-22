@@ -15,7 +15,9 @@ offset_y = 80
 def handle_mousedown(x,y,button):
   global turn
   
+  col = x / cell_size
   
+  print col
   
   draw()
   
