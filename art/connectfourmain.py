@@ -47,5 +47,11 @@ height = 8
 for i in range(0,8):
   for j in range(0,8):
 
-    color("white")
+    if boardArray [j][i] == 0:
+      color("white")
+    elif boardArray[j][i] == 1:
+      color("red")
+    elif boardArray[j][i] == 2:
+      color("yellow")
+    
     spot(x + i * 100, y + j * 100, 40)
