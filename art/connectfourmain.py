@@ -24,16 +24,6 @@ def handle_mousedown(x,y,button):
     turn = (turn + 1) % 2
     
     draw()
-  
-  #if button == "left" and turn == 1:
-  #  color("red")
-  #  spot(x,y,40)
-  #  
-  #  turn = 2
-  #elif button == "right"and turn == 2:
-  #  color("yellow")
-  #  spot(x,y,40)
-  #  turn = 1
     
     
     
@@ -55,5 +45,7 @@ def draw():
         color("yellow")
       
       spot(offset_x + i * cell_size + cell_size/2, offset_y + j * cell_size + cell_size/2, cell_size *0.4)
+  
+  check_winner()
 
 draw()
