@@ -2,9 +2,15 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from github.mauriceyap.art.maths_mechanism import *
 
-print boardArray
 
 turn = 1
+cell_size = 100
+
+cells_x = 8
+cells_y = 8
+
+offset_x = 20
+offset_y = 80
 
 def handle_mousedown(x,y,button):
   global turn
@@ -30,7 +36,7 @@ def handle_mousedown(x,y,button):
       
 def draw():
   color("blue")
-  box(20,80,850,840)
+  box(offset_x,offset_y,cell_size * cells_x,cell_size * cells_y)
   
   x = 95
   y =150
