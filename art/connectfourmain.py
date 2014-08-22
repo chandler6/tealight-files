@@ -1,5 +1,6 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
+from github.mauriceyap.art.maths_mechanism import *
 x = 600
 y = 400
 vx = 0
@@ -7,16 +8,7 @@ vy = 0
 ax = 0
 ay = 0
 
-#1The board
-
-boardArray =[[0,0,0,0,0,0,0,0],
-             [0,1,0,0,0,0,0,0],
-             [0,0,1,0,0,0,0,0],
-             [0,0,0,1,0,0,0,0],
-             [0,0,0,0,1,0,0,0],
-             [1,0,0,0,0,0,0,0],
-             [1,0,0,0,0,0,0,0],
-             [1,0,0,0,0,0,0,0]]
+print boardArray
 
 turn = 1
 
