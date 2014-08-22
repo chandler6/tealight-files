@@ -3,7 +3,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 from github.mauriceyap.art.maths_mechanism import *
 
 
-turn = 1
+turn = 0
 cell_size = 100
 
 cells_x = 8
@@ -17,9 +17,12 @@ def handle_mousedown(x,y,button):
   
   col = (x-offset_x) / cell_size
   
-  print col
-  
-  draw()
+  if 0 <= col < 8:
+    
+    boardArray[0][col] = turn
+    turn = (turn + 1) % 2
+    
+    draw()
   
   #if button == "left" and turn == 1:
   #  color("red")
