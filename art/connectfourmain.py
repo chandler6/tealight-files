@@ -46,6 +46,6 @@ def draw():
       
       spot(offset_x + i * cell_size + cell_size/2, offset_y + j * cell_size + cell_size/2, cell_size *0.4)
   
-  check_winner()
+  check_winner(boardArray)
 
 draw()
