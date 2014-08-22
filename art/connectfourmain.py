@@ -24,6 +24,9 @@ def handle_mousedown(x,y,button):
     spot(x,y,40)
     turn = 1
     
+    
+  draw()
+    
 
 
       
